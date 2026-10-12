@@ -1,0 +1,16 @@
+name: ZenScoreboard
+version: 1.0.0
+main: net.zenith.zenscore.ZenScoreboard
+api-version: '1.21'
+softdepend: [PlaceholderAPI, Vault, LuckPerms]
+commands:
+  scoreboard:
+    description: Open your scoreboard settings menu
+    aliases: [sb]
+    usage: /scoreboard
+  zenscoreboard:
+    description: ZenScoreboard admin command
+    permission: zenscoreboard.admin
+permissions:
+  zenscoreboard.admin:
+    default: op

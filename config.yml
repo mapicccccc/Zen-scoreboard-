@@ -1,0 +1,23 @@
+scoreboard:
+  title: '&b&lDONUTSMP'
+  update-ticks: 20
+  lines:
+    - '&8&m----------------'
+    - '&bName: &f%player_name%'
+    - '&bRank: &f%luckperms_prefix%'
+    - '&bMoney: &a$%vault_eco_balance_formatted%'
+    - '&bKills: &f%statistic_player_kills%'
+    - '&bDeaths: &f%statistic_deaths%'
+    - '&bShards: &d%shards_balance%'
+    - '&bPing: &f%player_ping% ms'
+    - '&8&m----------------'
+# Placeholder values are replaced through PlaceholderAPI when installed.
+# Change the shards placeholder to match your shards plugin. Players can hide this line in /scoreboard.
+defaults:
+  name: true
+  rank: true
+  money: true
+  kills: true
+  deaths: true
+  shards: true
+  ping: true
